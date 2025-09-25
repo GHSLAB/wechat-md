@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import AppSplash from '@/components/AppSplash.vue'
 import { Toaster } from '@/components/ui/sonner'
+import { useStore } from '@/stores/index'
 import CodemirrorEditor from '@/views/CodemirrorEditor.vue'
 
 const store = useStore()
